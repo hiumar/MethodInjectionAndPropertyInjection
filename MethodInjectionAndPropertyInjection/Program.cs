@@ -8,6 +8,7 @@ namespace MethodInjectionAndPropertyInjection
         static void Main(string[] args)
         {
 
+
             StudentBusinessLayer studentBusinessLayer = new StudentBusinessLayer();
             var data = studentBusinessLayer.GetStudents(new StudentDataAccessLayer());
             //below lines are just for property type injection
